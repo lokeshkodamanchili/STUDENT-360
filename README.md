@@ -241,3 +241,6 @@ This project is licensed under the MIT License.
 - [ ] Real-time notifications
 - [ ] Custom report generation
 - [ ] Multi-language support
+
+## Demo Video
+[Go to Video Demo](https://github.com/lokeshkodamanchili/STUDENT-360/tree/main/Documentation%20%26%20Demo/Video%20Demo)
