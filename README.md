@@ -244,3 +244,14 @@ This project is licensed under the MIT License.
 
 ## Demo Video
 [Go to Video Demo](https://github.com/lokeshkodamanchili/STUDENT-360/tree/main/Documentation%20%26%20Demo/Video%20Demo)
+
+---
+
+## 💻 Integrated Exam Client (Electron App)
+
+The Student 360 platform integrates seamlessly with a desktop-based exam application. This client application is used by students to securely take exams, while automatically logging violations and submitting grades directly to the database.
+
+* **🎮 Desktop Exam Client Repository:** [STUDENT-360-ELECTRON-APP](https://github.com/lokeshkodamanchili/STUDENT-360-ELECTRON-APP)
+  *Features include a distraction-free exam window, voice and camera checks, tab-switch proctor alerts, and automatic result submission via HTTP POST endpoints.*
+
+---
