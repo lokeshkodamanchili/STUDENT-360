@@ -1,23 +1,53 @@
-# STUDENT 360 - Academic Intelligence Platform
+<div align="center">
+
+# STUDENT 360
+### Academic Intelligence Platform
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=20232A)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8)
 
 STUDENT 360 is a modern, premium web application designed to monitor and analyze student performance, behavior, and extracurricular activities (like GitHub contributions) at an institutional level. Built with React and Vite, the platform features a sleek, futuristic dark-and-orange UI with fluid animations and rich data visualization.
+
+[![Watch the demo](https://img.shields.io/badge/▶_WATCH_THE_DEMO-F97316?style=for-the-badge)](Documentation%20%26%20Demo/Video%20Demo/captioned%20%26%20voiceover%20video%20demo..mp4)
+[![Exam client](https://img.shields.io/badge/DESKTOP_EXAM_CLIENT-282C34?style=for-the-badge&logo=electron&logoColor=9FEAF9)](https://github.com/lokeshkodamanchili/STUDENT-360-ELECTRON-APP)
+
+[Features](#features) · [Tech Stack](#tech-stack) · [Getting Started](#getting-started) · [Firebase](#firebase-setup) · [Demo Video](#demo-video)
+
+</div>
+
+---
+
+<a id="features"></a>
 
 ## 🚀 Features
 
 ### 🎓 Student Portal
-- **Dashboard:** At-a-glance view of academic standing, recent scores, and upcoming exams.
-- **GitHub Analysis:** Deep dive into individual coding activity, language distribution, and commit heatmaps.
-- **Academic Records:** Detailed tracking of test scores, historical results, and GPA.
-- **Behavior & Gamification:** Monitor rule violations and earn achievement badges for academic and extracurricular excellence.
+
+| Feature | Description |
+| :--- | :--- |
+| **Dashboard** | At-a-glance view of academic standing, recent scores, and upcoming exams. |
+| **GitHub Analysis** | Deep dive into individual coding activity, language distribution, and commit heatmaps. |
+| **Academic Records** | Detailed tracking of test scores, historical results, and GPA. |
+| **Behavior & Gamification** | Monitor rule violations and earn achievement badges for academic and extracurricular excellence. |
 
 ### 🛡️ Admin Portal
-- **Institution Overview:** High-level metrics on total students, average scores, and active alerts.
-- **Student Management:** Detailed directory of all enrolled students with search and filtering.
-- **GitHub Leaderboard:** Track and compare the coding contributions of all linked students across the institution.
-- **Exam & Result Management:** Oversee upcoming test schedules and publish results.
-- **Disciplinary Action:** Log and monitor student violations with severity tracking.
+
+| Feature | Description |
+| :--- | :--- |
+| **Institution Overview** | High-level metrics on total students, average scores, and active alerts. |
+| **Student Management** | Detailed directory of all enrolled students with search and filtering. |
+| **GitHub Leaderboard** | Track and compare the coding contributions of all linked students across the institution. |
+| **Exam & Result Management** | Oversee upcoming test schedules and publish results. |
+| **Disciplinary Action** | Log and monitor student violations with severity tracking. |
+
+---
+
+<a id="tech-stack"></a>
 
 ## 💻 Tech Stack
+
 - **Frontend Framework:** React, Vite
 - **Styling:** Tailwind CSS v4, Custom CSS Variables
 - **Animations:** Framer Motion
@@ -25,9 +55,14 @@ STUDENT 360 is a modern, premium web application designed to monitor and analyze
 - **Icons:** Lucide React
 - **Routing:** React Router DOM
 
+---
+
+<a id="getting-started"></a>
+
 ## 🛠️ Getting Started
 
 ### Prerequisites
+
 - Node.js (v18 or higher recommended)
 - npm or yarn
 - Firebase project with Firestore database
@@ -72,11 +107,18 @@ STUDENT 360 is a modern, premium web application designed to monitor and analyze
 
 6. Open your browser and navigate to `http://localhost:5173`.
 
+---
+
 ## 🎨 UI/UX Philosophy
+
 The UI was explicitly designed to break away from traditional, sterile educational software. It utilizes a **Premium Dark/Orange Theme** featuring:
 - Glassmorphism effects and ambient glowing backgrounds.
 - Pill-shaped components and smooth hover micro-interactions.
 - Standardized, spacious grid layouts to ensure dense data readability without cognitive overload.
+
+---
+
+<a id="firebase-setup"></a>
 
 ## 🔥 Firebase Setup
 
@@ -105,7 +147,9 @@ The app expects the following collections:
 - **violations** - Student behavior violations
 - **achievements** - Student achievement badges
 
-## � Result Submission API (Electron App Integration)
+---
+
+## 🔗 Result Submission API (Electron App Integration)
 
 The platform supports result submission from Electron-based exam applications. Results are automatically stored in Firestore and made available in the admin and student portals.
 
@@ -169,7 +213,9 @@ const submitResult = async (resultData) => {
 - **Student History:** Results are added to student's exam history
 - **Source Tracking:** Results from Electron apps are marked with `source: 'electron_app'`
 
-## �🚀 Deployment
+---
+
+## 🚀 Deployment
 
 ### Deploy to Vercel
 
@@ -188,6 +234,8 @@ const submitResult = async (resultData) => {
 3. Push to `main` branch to trigger automatic deployment
 4. Vercel will build and deploy your app automatically
 
+---
+
 ## 🔐 Security Features
 
 - **Environment Variables:** Sensitive credentials stored in environment variables, not hardcoded
@@ -196,12 +244,16 @@ const submitResult = async (resultData) => {
 - **GitHub Token:** Optional token support for higher GitHub API rate limits
 - **Power Automate Integration:** Secure webhook-based email notifications
 
+---
+
 ## 📦 Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build locally
 - `npm run lint` - Run ESLint
+
+---
 
 ## 📂 Project Structure
 
@@ -220,6 +272,8 @@ src/
 └── utils/               # Helper functions
 ```
 
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
@@ -229,9 +283,13 @@ Contributions are welcome! Please follow these steps:
 3. Push to the branch: `git push origin feature/your-feature`
 4. Open a Pull Request
 
+---
+
 ## 📝 License
 
 This project is licensed under the MIT License.
+
+---
 
 ## 🎯 Future Enhancements
 
@@ -242,7 +300,16 @@ This project is licensed under the MIT License.
 - [ ] Custom report generation
 - [ ] Multi-language support
 
-## Demo Video
+---
+
+<a id="demo-video"></a>
+
+## 🎬 Demo Video
+
+[![Watch the demo](https://img.shields.io/badge/WATCH_THE_VIDEO_DEMO-F97316?style=for-the-badge&logo=youtube&logoColor=white)](Documentation%20%26%20Demo/Video%20Demo/captioned%20%26%20voiceover%20video%20demo..mp4)
+
+**[Watch the captioned & voiceover video demo](Documentation%20%26%20Demo/Video%20Demo/captioned%20%26%20voiceover%20video%20demo..mp4)**
+
 [Go to Video Demo](https://github.com/lokeshkodamanchili/STUDENT-360/tree/main/Documentation%20%26%20Demo/Video%20Demo)
 
 ---
